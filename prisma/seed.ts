@@ -15,7 +15,7 @@ async function seedMembers() {
         image: member.image,
         member: {
           create: {
-            dateOfBirth: new Date(member.dateOfBirth),
+            dateofBirth: new Date(member.dateOfBirth),
             gender: member.gender,
             name: member.name,
             created: new Date(member.created),

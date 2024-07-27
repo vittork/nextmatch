@@ -37,7 +37,7 @@ export default function MemberSidebar({ member }: Props) {
       <CardBody>
         <div className="flex flex-col items-center">
           <div className="text-2xl">
-            {member.name}, {calculateAge(member.dateOfBirth)}
+            {member.name}, {calculateAge(member.dateofBirth)}
           </div>
           <div className="text-sm text-neutral-500 text-center">
             {member.city}, {member.country}

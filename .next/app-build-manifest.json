@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/list/page": [
+    "/(auth)/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/list/page.js"
+      "static/chunks/app/(auth)/login/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,15 +11,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/error.js"
+    ],
     "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
-    ],
-    "/messages/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/messages/page.js"
     ],
     "/page": [
       "static/chunks/webpack.js",
@@ -36,35 +36,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/members/loading.js"
     ],
-    "/members/[userId]/page": [
+    "/lists/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/members/[userId]/page.js"
+      "static/chunks/app/lists/page.js"
     ],
-    "/members/[userId]/layout": [
+    "/messages/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/members/[userId]/layout.js"
-    ],
-    "/members/[userId]/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/members/[userId]/loading.js"
-    ],
-    "/members/[userId]/photos/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/members/[userId]/photos/page.js"
-    ],
-    "/members/[userId]/chat/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/members/[userId]/chat/page.js"
-    ],
-    "/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/error.js"
+      "static/chunks/app/messages/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

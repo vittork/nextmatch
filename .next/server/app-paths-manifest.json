@@ -1,10 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/members/page": "app/members/page.js",
-  "/list/page": "app/list/page.js",
+  "/lists/page": "app/lists/page.js",
   "/page": "app/page.js",
-  "/messages/page": "app/messages/page.js",
-  "/members/[userId]/chat/page": "app/members/[userId]/chat/page.js",
-  "/members/[userId]/page": "app/members/[userId]/page.js",
-  "/members/[userId]/photos/page": "app/members/[userId]/photos/page.js"
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/members/page": "app/members/page.js"
 }
